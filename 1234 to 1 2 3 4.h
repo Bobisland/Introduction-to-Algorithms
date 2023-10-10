@@ -4,13 +4,15 @@
 
 #ifndef INTRODUCTION_TO_ALGORITHMS_1234_TO_1_2_3_4_H
 #define INTRODUCTION_TO_ALGORITHMS_1234_TO_1_2_3_4_H
-
-void num_sort(int arr[],int n)
+#include <stdio.h>
+void num_sort(int n)
 {
-    for(int i = 0;i < n;i++)
+    if(n > 0)
     {
-
+        num_sort(n / 10);
+        printf("%d ",n % 10);
     }
+
 }
 
 #endif //INTRODUCTION_TO_ALGORITHMS_1234_TO_1_2_3_4_H
