@@ -94,7 +94,9 @@
 			[
 				1,
 				2,
-				3
+				3,
+				4,
+				5
 			]
 		}
 	],
@@ -119,6 +121,16 @@
 		{
 			"backtrace" : 1,
 			"path" : "1234 to 1 2 3 4.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "hanno.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "bubble.h",
 			"sourceGroupIndex" : 1
 		}
 	],

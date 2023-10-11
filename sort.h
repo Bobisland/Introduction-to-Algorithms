@@ -22,5 +22,6 @@ void sort(int arr[],int n)
     {
         printf("%d ",arr[a]);
     }
+    printf("\n");
 }
 #endif //ALGORITHMS_SORT_H
